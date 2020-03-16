@@ -16,7 +16,7 @@
 }
 body {
   font-family: "Open Sans";
-  overflow-x: hidden;
+ 
 }
 img {
   display: block;
@@ -1045,7 +1045,7 @@ img {
   .dwnl-google {
     display: flex;
     height: 6vh;
-    width: 280px;
+    width: 240px;
     background-color: #5e42b0;
     border: none;
     border-radius: 17px;
