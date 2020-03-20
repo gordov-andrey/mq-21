@@ -55,7 +55,7 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-	 padding-bottom: 5.25vw;
+	 padding-bottom: 6vw;
 	 padding-top: 2.25vw;
   }
 
@@ -83,7 +83,7 @@ img {
 	
   }
   .header-logo {
-    width: 9.25vw;
+    width: 10.5vw;
     fill: #ffffff;
 
  
@@ -210,7 +210,7 @@ img {
     margin-right: auto;
   }
   .main-stipe-light {
-    margin-top: 1.1vw;
+    margin-top: 1.5vw;
     background-color: #ffffff;
   }
   .main-stipe-medium {
@@ -296,15 +296,17 @@ img {
 
   .main-desc-black {
     color: #000000;
+	font-size: 1vw;
     line-height: 28px;
     letter-spacing: 1px;
-    padding-bottom: 1.5vw;
+    padding-bottom: 1.7vw;
   }
   .main-desc-white {
     color: #ffffff;
+	font-size: 1vw;
 	line-height: 28px;
     letter-spacing: 1px;
-    padding-bottom: 1.5vw;
+    padding-bottom: 1.7vw;
   }
   .main-extra-padding {
 	 padding-bottom: 2.9vw;
@@ -386,7 +388,7 @@ img {
     color: #c1c1c1;
     font-size: 4vw;
 	padding-top: 1vw;
-    padding-bottom: 4.8vw;
+    padding-bottom: 4vw;
   }
 
   .article-desc {
