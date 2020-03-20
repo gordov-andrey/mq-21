@@ -12,10 +12,11 @@
 }
 * {
   box-sizing: border-box;
- margin: 0;
+ 
 }
 body {
   font-family: "Open Sans";
+  margin: 0;
  
 }
 img {
@@ -28,32 +29,27 @@ img {
 /*======= COMMON =======*/
 @media (min-width: 960px) {
   h2 {
-    font-size: 4vw;
+    font-size: 4.16vw;
     font-weight: bold;
     position: relative;
     color: #ffffff;
     text-transform: uppercase;
+	margin: 0;
   }
   h3 {
     color: #c1c1c1;
     font-size: 1.8vw;
     font-weight: bold;
     text-transform: uppercase;
+	margin: 0;
   }
-
-  p {
-    font-size: 1vw;
-	line-height: 28px;
-    letter-spacing: 1px;
-  }
+ 
   a {
     text-decoration: none;
   }
 
   /*=======Header=======*/
   .header {
-    display: flex;
-    justify-content: center;
     position: relative;
     background-image: url(../img/football_1920.jpg);
     background-repeat: no-repeat;
@@ -74,31 +70,34 @@ img {
     right: 0;
   }
   .header-wrapper {
-    max-width: 1530px;
+    max-width: 79.69vw;
 
-	margin-left: 9vw;
-	margin-right: 9vw;
+	margin-left: auto;
+	margin-right: auto;
   }
   .header-logo-wrapper {
-    display: flex;
-    justify-content: center;
     position: relative;
+	display: flex;
+	justify-content: center;
+	
 	
   }
   .header-logo {
     width: 9.25vw;
     fill: #ffffff;
+
  
   }
   .header-title-wrapper {
 	   display: flex;
 	   flex-wrap: wrap;
-	
-    margin-top: 14.5vw;
+	   margin-top: 14.5vw;
   }
   .header-title {
 
-    font-size: 4.5vw;
+    font-size: 4.68vw;
+	line-height: 1em;
+	letter-spacing: 0.04em;
     font-weight: bold;
     position: relative;
     color: #ffffff;
@@ -108,13 +107,15 @@ img {
   }
   .header-desc {
    
-    font-size: 4.5vw;
+    font-size: 4.68vw;
+	line-height: 1em;
+	letter-spacing: 0.04em;
     font-weight: bold;
     position: relative;
     color: #ffffff;
     text-transform: uppercase;
 
-    padding-left: 21.75vw;
+    padding-left: 24vw;
   }
 
   .dwnl-wrapper {
@@ -131,34 +132,34 @@ img {
     padding-left: 1.25vw;
   }
   .dwnl-get {
-    font-size: 14px;
+    font-size: 0.73vw;
     font-weight: normal;
   }
   .dwnl-store {
-    font-size: 14px;
+    font-size: 0.73vw;
     font-weight: bold;
   }
   .dwnl-apple,
   .dwnl-google {
    
     display: flex;
-    height: 75px;
-    width: 305px;
+    height: 3.9vw;
+    width: 15.88vw;
     background-color: #5e42b0;
     border: none;
-    border-radius: 50px;
+    border-radius: 2.6vw;
 
     color: #ffffff;
     font-family: "Open Sans";
     text-transform: uppercase;
   }
   .store-icon {
-    width: 45px;
+    width: 2.34vw;
     fill: #ffffff;
-    margin-left: 50px;
+    margin-left: 2.6vw;
   }
   .dwnl-google {
-    margin-left: 50px;
+    margin-left: 2.6vw;
   }
 
   /*=======MAIN=======*/
@@ -181,32 +182,35 @@ img {
   }
 
   .main-title {
-    line-height: 3vw;
+    margin: 0;
+	margin-top: 1.72vw;
+	line-height: 0.8em;
     color: #e7e7e7;
   }
   .football {
     max-width: 50%;
     position: absolute;
-    padding-left: 20vw;
+    padding-left: 21vw;
   }
   .main-header-wrapper {
-    padding-bottom: 5.5vw;
+    padding-bottom: 5.2vw;
   }
   .main-content-right {
-    max-width: 1530px;
-    padding-left: 40.65vw;
-    padding-top: 5.25vw;
-    margin-left: 9vw;
-    margin-right: 9vw;
+    max-width: 79.69vw;
+    padding-left: 42.5vw;
+    padding-top: 2.6vw;
+    margin-left: auto;
+    margin-right: auto;
   }
   .main-content-left {
-    max-width: 1530px;
-    padding-top: 5.25vw;
-    margin-left: 9vw;
-    margin-right: 9vw;
+    max-width: 79.69vw;
+    padding-top: 2.6vw;
+	padding-right: 40.5vw;
+    margin-left: auto;
+    margin-right: auto;
   }
   .main-stipe-light {
-    margin-top: 1vw;
+    margin-top: 1.1vw;
     background-color: #ffffff;
   }
   .main-stipe-medium {
@@ -221,15 +225,14 @@ img {
 
   .basketball {
     max-width: 50%;
-    margin-left: 40.75vw;
+    margin-left: 42vw;
     position: absolute;
   }
 
 
   .main-heading-wrapper {
     display: flex;
-    align-items: flex-end;
-    padding-bottom: 1vw;
+
   }
 
   .main-heading-number {
@@ -237,28 +240,24 @@ img {
     font-family: "Open Sans";
     font-weight: bold;
     padding-right: 0.5vw;
+	padding-top: 0.5vw;
     text-transform: uppercase;
-    padding-left: 0;
-    margin-bottom: 0.5vw;
+
   }
   .main-heading-number-n {
     font-size: 0.9vw;
-
     font-weight: bold;
-    padding-right: 0.5vw;
     text-transform: uppercase;
-    padding-left: 0;
-    margin-bottom: 0.5vw;
+    padding-right: 0.5vw;
+	padding-top: 0.5vw
   }
   .main-heading-number-n-x {
     font-size: 0.9vw;
-
     font-weight: bold;
-    padding-right: 0.5vw;
     color: #5e42b0;
     text-transform: uppercase;
-    padding-left: 0;
-    margin-bottom: 0.5vw;
+    padding-right: 0.5vw;
+	padding-top: 0.5vw
   }
 
   .main-heading-number::after {
@@ -296,23 +295,21 @@ img {
   }
 
   .main-desc-black {
-  
     color: #000000;
-    
-
     line-height: 28px;
     letter-spacing: 1px;
-    padding-bottom: 48px;
+    padding-bottom: 1.5vw;
   }
   .main-desc-white {
-   
-    font-weight: regular;
     color: #ffffff;
-  
-
-   
-    padding-bottom: 48px;
+	line-height: 28px;
+    letter-spacing: 1px;
+    padding-bottom: 1.5vw;
   }
+  .main-extra-padding {
+	 padding-bottom: 2.9vw;
+  }
+  
 
   /*=======article=======*/
   .article {
@@ -335,26 +332,26 @@ img {
   }
   .article-list {
     display: flex;
-    width: 50%;
-    margin-top: 10.5vw;
+    max-width: 50%;
+    margin-top: 11.5vw;
     margin-left: -4.15vw;
   }
   .article-list-2 {
     display: flex;
     flex-direction: row-reverse;
     width: 50%;
-    margin-top: 10.5vw;
-    padding-left: 0.5vw;
-    margin-left: 4.25vw;
+    margin-top: 11.5vw;
     margin-right: -4.15vw;
   }
 
   .article-heading-wrapper {
     margin-left: 2.25vw;
-    margin-right: 9vw;
+	max-width: 33vw;
+
   }
   .article-heading-wrapper-2 {
-    margin-right: 2.25vw;
+    margin-right: 2.6vw;
+	max-width: 33vw;
   }
 
   .article-heading-number {
@@ -388,24 +385,26 @@ img {
   .article-heading {
     color: #c1c1c1;
     font-size: 4vw;
-    padding-bottom: 5.5vw;
+	padding-top: 1vw;
+    padding-bottom: 4.8vw;
   }
 
   .article-desc {
  
     color: #000000;
-    font-size: 1.2vw;
+    font-size: 1.25vw;
+	line-height: 1.2em;
+	letter-spacing: 0.03em;
   }
 
   /*=======FOOTER=======*/
   .footer {
-    display: flex;
-    justify-content: center;
-
     position: relative;
     background-image: url(../img/game_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+	padding-top: 11.7vw;
+	padding-bottom: 2.6vw;
   }
 
   .footer:before {
@@ -419,47 +418,39 @@ img {
     right: 0;
   }
   .footer-wrapper {
-    max-width: 1530px;
+    max-width: 79.69vw;
     margin-left: auto;
 	margin-right: auto;
   }
-  .footer-logo-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
+ 
   .footer-logo-svg-wrapper {
     display: flex;
     justify-content: center;
     position: relative;
-    width: 130px;
-    height: 130px;
+    width: 6.77vw;
+    height: 6.77vw;
     border: none;
     border-radius: 20px;
     background-color: #563ba3;
   }
   .footer-logo-svg {
-    width: 105px;
+    width: 5.47vw;
     fill: #ffffff;
   }
   .footer-title-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     position: relative;
     padding-left: 40px;
   }
   .footer-title {
     font-family: "Open Sans";
-
     color: #ffffff;
-    font-size: 4vw;
+    font-size: 4.16vw;
     text-transform: uppercase;
+	line-height: 1em;
+	margin: 0;
   }
   .footer-desc {
-    font-size: 1.5vw;
+    font-size: 1.56vw;
     color: #9689bb;
     text-transform: uppercase;
   }
@@ -467,25 +458,23 @@ img {
     position: relative;
     display: flex;
     justify-content: center;
-    margin-top: 280px;
+    margin-top: 7.55vw;
   }
   .footer-logo-txt-wrapper {
     display: flex;
     justify-content: center;
-    margin-top: 145px;
+    margin-top: 13.33vw;
 
     position: relative;
   }
   .footer-logo-txt {
-    width: 185px;
+    width: 9.63vw;
 
-    padding-bottom: 10px;
     fill: #ffffff;
   }
   .footer-wrapper-desktop {
     display: flex;
     justify-content: center;
-    margin-top: 225px;
   }
 }
 /*======= COMMON =======*/
@@ -504,9 +493,6 @@ img {
     text-transform: uppercase;
   }
 
-  p {
-    font-size: 16px;
-  }
 
   a {
     text-decoration: none;
@@ -514,13 +500,13 @@ img {
 
   /*=======Header=======*/
   .header {
-    display: flex;
-    justify-content: center;
-    position: relative;
+	position: relative;
     background-image: url(../img/football_767.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding-bottom: 90px;
+	padding-top: 35px;
   }
 
   .header:before {
@@ -533,7 +519,12 @@ img {
     bottom: 0;
     right: 0;
   }
-
+   .header-wrapper {
+    max-width: 703px;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
   .header-logo-wrapper {
     display: flex;
     justify-content: center;
@@ -542,7 +533,7 @@ img {
   .header-logo {
     width: 204px;
     fill: #ffffff;
-    padding-top: 40px;
+   
   }
   .header-title-wrapper {
     display: flex;
@@ -556,8 +547,8 @@ img {
     position: relative;
     color: #ffffff;
     text-transform: uppercase;
-
-    padding-left: 80px;
+    padding-left: 60px;
+	letter-spacing: 3px;
   }
   .header-desc {
     font-size: 64px;
@@ -565,8 +556,8 @@ img {
     position: relative;
     color: #ffffff;
     text-transform: uppercase;
-
-    padding-left: 178px;
+    padding-left: 167px;
+	letter-spacing: 3px;
   }
 
   .dwnl-wrapper {
@@ -575,7 +566,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 90px;
+
   }
   .dwnl-title {
     display: flex;
@@ -637,28 +628,39 @@ img {
     font-weight: bold;
     color: #e7e7e7;
     line-height: 0.8;
-    padding-bottom: 20px;
+  	margin:0;
   }
   .football {
     position: absolute;
     margin-left: -160px;
+	padding-top: 35px;
   }
 
   .main-content-right {
-    padding-left: 283px;
-    margin-left: 10px;
-    margin-right: 10px;
+ margin-left: auto;
+margin-right: auto;
+max-width: 703px;
+    padding-top: 30px;
+	padding-left: 283px;
+
+
   }
   .main-content-left {
-    padding-right: 40.65vw;
-    padding-left: 20px;
-    padding-top: 2vw;
-    margin-left: 10px;
-    margin-right: 10px;
+margin-left: auto;
+margin-right: auto;
+max-width: 703px;
+    padding-top: 30px;
+	padding-right: 283px;
+	
+
   }
   .main-stipe-light {
-    margin-top: 85px;
+    margin-top: 45px;
     background-color: #ffffff;
+  }
+   .main-stipe-extra {
+
+	margin-top: 60px;
   }
   .main-stipe-medium {
     background-color: #f5f4f9;
@@ -672,43 +674,36 @@ img {
 
   .basketball {
     right: 0;
+	
     position: absolute;
   }
 
   .main-heading-wrapper {
     display: flex;
-    align-items: flex-end;
-    padding-bottom: 30px;
-    padding-top: 30px;
   }
 
   .main-heading-number {
     font-size: 18px;
-    font-family: "Open Sans";
     font-weight: bold;
     padding-right: 10px;
+	padding-top: 5px;
     text-transform: uppercase;
-    padding-left: 0;
-    margin-bottom: 7px;
+
   }
   .main-heading-number-n {
     font-size: 18px;
-    font-family: "Open Sans";
     font-weight: bold;
-    padding-right: 10px;
     text-transform: uppercase;
-    padding-left: 0;
-    margin-bottom: 7px;
+    padding-right: 10px;
+	padding-top: 5px;
   }
   .main-heading-number-n-x {
     font-size: 18px;
-    font-family: "Open Sans";
     font-weight: bold;
-    padding-right: 10px;
     color: #5e42b0;
     text-transform: uppercase;
-    padding-left: 0;
-    margin-bottom: 7px;
+    padding-right: 10px;
+	padding-top: 5px;
   }
 
   .main-heading-number::after {
@@ -739,11 +734,19 @@ img {
     border-radius: 2px;
     background-color: #ffffff;
   }
-  .main-heading {
+  .main-heading-1 {
     color: #c1c1c1;
     font-size: 32px;
     position: relative;
-  }
+	margin: 0;
+}
+  .main-heading-n {
+    color: #c1c1c1;
+    font-size: 32px;
+    position: relative;
+	margin: 0;
+	
+}
 
   .main-desc-black {
     font-family: "Open Sans";
@@ -752,7 +755,7 @@ img {
 
     line-height: 28px;
     letter-spacing: 1px;
-    padding-bottom: 30px;
+    padding-bottom: 16px;
   }
   .main-desc-white {
     font-family: "Open Sans";
@@ -762,7 +765,7 @@ img {
 
     line-height: 28px;
     letter-spacing: 1px;
-    padding-bottom: 30px;
+    padding-bottom: 16px;
   }
 
   /*=======article=======*/
@@ -779,26 +782,26 @@ img {
   }
   .article-list {
     position: relative;
-
+ max-width: 703px;
     margin-top: -85px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+	padding-bottom: 80px;
   }
   .article-list-2 {
     position: relative;
-
-    margin-top: -75px;
-    margin-left: 10px;
-    margin-right: 10px;
+max-width: 703px;
+    margin-top: -85px;
+    margin-left: auto;
+    margin-right: auto;
+	padding-bottom: 80px;
   }
 
   .article-heading-wrapper {
-    padding-left: 20px;
-    padding-right: 20px;
+ padding-top: 50px;
   }
   .article-heading-wrapper-2 {
-    padding-left: 20px;
-    padding-right: 20px;
+padding-top: 50px;
   }
 
   .article-heading-number {
@@ -815,8 +818,9 @@ img {
     font-weight: bold;
     font-size: 24px;
     text-transform: uppercase;
-    margin-bottom: 50px;
-    margin-left: 20px;
+	
+
+
   }
 
   .article-heading-number::after {
@@ -833,7 +837,8 @@ img {
   .article-heading {
     color: #c1c1c1;
     font-size: 80px;
-    padding-bottom: 30px;
+	margin: 0;
+    padding-bottom: 10px;
     line-height: 0.8;
   }
 
@@ -841,7 +846,7 @@ img {
     font-family: "Open Sans";
     color: #000000;
     font-size: 24px;
-    padding-bottom: 100px;
+    letter-spacing: 1px;
   }
 
   /*=======FOOTER=======*/
@@ -853,6 +858,8 @@ img {
     background-image: url(../img/game_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+	padding-top: 125px;
+	padding-bottom: 15px;
   }
 
   .footer:before {
@@ -866,17 +873,15 @@ img {
     right: 0;
   }
   .footer-wrapper {
-    width: 100%;
-    margin: 0 10px;
-    padding-left: 0;
-    padding-right: 0;
+    max-width: 703px;
+    margin-left: auto;
+	margin-right: auto;
   }
   .footer-logo-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 125px;
-    margin-bottom: 75px;
+	margin-bottom: 75px;
   }
   .footer-logo-svg-wrapper {
     display: flex;
@@ -895,19 +900,19 @@ img {
   .footer-title-wrapper {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
     position: relative;
-    margin-bottom: 285px;
+	margin-bottom: 280px;
+ 
   }
   .footer-title {
     font-family: "Open Sans";
 
     color: #ffffff;
     font-size: 80px;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     text-transform: uppercase;
+	margin: 0;
   }
   .footer-desc {
     font-size: 36px;
@@ -924,12 +929,10 @@ img {
     display: flex;
     justify-content: center;
     position: relative;
-    margin-bottom: 20px;
+ 
   }
   .footer-logo-txt {
     width: 185px;
-
-    padding-bottom: 10px;
     fill: #ffffff;
   }
 }
@@ -946,23 +949,21 @@ img {
     color: #c1c1c1;
     font-size: 23px;
     font-weight: bold;
+	position: relative;
     text-transform: uppercase;
   }
-  p {
-    font-size: 16px;
-    margin: 0;
-  }
+
   a {
     text-decoration: none;
   }
   /*=======Header=======*/
   .header {
-    display: flex;
-    justify-content: center;
     position: relative;
     background-image: url(../img/football_767.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+	   padding-bottom: 80px;
+	padding-top: 30px;
   }
 
   .header:before {
@@ -976,17 +977,14 @@ img {
     right: 0;
   }
   .header-wrapper {
-    display: flex;
-    flex-direction: column;
-    padding-left: 20px;
-    padding-right: 20px;
+    max-width: 280px;
+	margin-left: auto;
+	margin-right: auto;
   }
   .header-logo-wrapper {
     display: flex;
     justify-content: center;
     position: relative;
-    margin-top: 30px;
-    margin-bottom: 130px;
   }
   .header-logo {
     width: 132px;
@@ -997,8 +995,7 @@ img {
     flex-wrap: wrap;
     position: relative;
 
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-top: 130px;
     margin-bottom: 85px;
   }
   .header-title {
@@ -1020,13 +1017,8 @@ img {
 
   .dwnl-wrapper {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 80px;
+    
+ 
   }
   .dwnl-title {
     display: flex;
@@ -1045,7 +1037,7 @@ img {
   .dwnl-google {
     display: flex;
     height: 6vh;
-    width: 240px;
+    width: 280px;
     background-color: #5e42b0;
     border: none;
     border-radius: 17px;
@@ -1077,8 +1069,7 @@ img {
 
   .picture-wrapper {
     max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+
   }
   .main-img {
     max-width: 100%;
@@ -1089,17 +1080,20 @@ img {
     font-weight: bold;
     color: #e7e7e7;
     line-height: 0.8;
-    padding-bottom: 245px;
-    padding-left: 20px;
+    margin-top: 20px;
+	margin-bottom: 245px;
+	padding-left: 20px;
   }
   .football {
     position: absolute;
     padding-top: 60px;
-    left: 64px;
-    right: 64px;
+	padding-left: 65px;
+	right:0;
+	left: 0;
+
   }
   .main-stipe-light {
-    margin-top: 20px;
+
     background-color: #ffffff;
   }
   .main-stipe-extra {
@@ -1126,45 +1120,45 @@ img {
   .basketball {
     position: absolute;
     padding-top: 60px;
+	right:0;
+	left: 0;
   }
 
   .main-heading-wrapper {
     display: flex;
-    align-items: flex-end;
-    padding-bottom: 30px;
-    padding-top: 60px;
+	padding-top: 55px;
+
   }
   .main-heading-wrapper-mob {
     padding-top: 80px;
   }
 
   .main-heading-number {
-    font-size: 18px;
-    font-family: "Open Sans";
+    font-size: 14px;
     font-weight: bold;
     padding-right: 10px;
+	padding-top: 3px;
     text-transform: uppercase;
-    padding-left: 0;
-    margin-bottom: 7px;
+
+
   }
   .main-heading-number-n {
-    font-size: 18px;
-    font-family: "Open Sans";
+    font-size: 14px;
     font-weight: bold;
     padding-right: 10px;
+	padding-top: 3px;
     text-transform: uppercase;
-    padding-left: 0;
-    margin-bottom: 7px;
+
   }
   .main-heading-number-n-x {
-    font-size: 18px;
-    font-family: "Open Sans";
+    font-size: 14px;
     font-weight: bold;
     padding-right: 10px;
+	padding-top: 3px;
     color: #5e42b0;
     text-transform: uppercase;
-    padding-left: 0;
-    margin-bottom: 7px;
+
+
   }
 
   .main-heading-number::after {
@@ -1195,36 +1189,35 @@ img {
     border-radius: 2px;
     background-color: #ffffff;
   }
-  .main-heading {
+  .main-heading-1 {
     color: #c1c1c1;
-    font-size: 32px;
     position: relative;
+	margin: 0;
+  }
+   .main-heading-n {
+    color: #c1c1c1;
+    position: relative;
+	margin: 0;
   }
 
   .main-desc-black {
-    font-family: "Open Sans";
-    color: #000000;
+     color: #000000;
     font-size: 16px;
-
     line-height: 28px;
     letter-spacing: 1px;
-    padding-bottom: 50px;
+    padding-bottom: 34px;
   }
   .main-desc-white {
-    font-family: "Open Sans";
-    font-weight: regular;
     color: #ffffff;
     font-size: 16px;
-
     line-height: 28px;
     letter-spacing: 1px;
-    padding-bottom: 50px;
+    padding-bottom: 34px;
   }
 
   /*=======article=======*/
   .article {
-    margin-left: auto;
-    margin-right: auto;
+
   }
   .article-wrapper {
     background-color: #ffffff;
@@ -1235,28 +1228,30 @@ img {
   }
   .article-list {
     position: relative;
+	max-width: 280px;
+	margin-left: auto;
+	margin-right: auto;
 
     margin-top: -60px;
-    margin-left: 10px;
-    margin-right: 10px;
+
   }
   .article-list-2 {
     position: relative;
+		max-width: 280px;
+	margin-left: auto;
+	margin-right: auto;
 
     margin-top: -60px;
-    margin-left: 10px;
-    margin-right: 10px;
+
   }
 
   .article-heading-wrapper {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 65px;
+
+    padding-bottom: 60px;
   }
   .article-heading-wrapper-2 {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 65px;
+
+    padding-bottom: 60px;
   }
 
   .article-heading-number {
@@ -1273,8 +1268,7 @@ img {
     font-weight: bold;
     font-size: 16px;
     text-transform: uppercase;
-    margin-bottom: 20px;
-    margin-left: 10px;
+
   }
 
   .article-heading-number::after {
@@ -1291,8 +1285,8 @@ img {
   .article-heading {
     color: #c1c1c1;
     font-size: 28px;
-    padding-bottom: 30px;
     line-height: 0.8;
+	margin: 20px 0;
   }
 
   .article-desc {
@@ -1303,12 +1297,11 @@ img {
 
   /*=======FOOTER=======*/
   .footer {
-    display: flex;
-    justify-content: center;
     position: relative;
     background-image: url(../img/game_767.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
   }
 
   .footer:before {
@@ -1322,16 +1315,18 @@ img {
     right: 0;
   }
   .footer-wrapper {
-    display: flex;
-    flex-direction: column;
-    padding-left: 20px;
-    padding-right: 20px;
+padding-top: 97px;
+padding-bottom: 10px;
+	max-width: 280px;
+	margin-left: auto;
+	margin-right: auto;
+
   }
   .footer-logo-wrapper {
     display: flex;
     justify-content: center;
-    margin-top: 95px;
-    margin-bottom: 55px;
+	padding-bottom: 56px;
+
   }
   .footer-logo-svg-wrapper {
     display: flex;
@@ -1350,11 +1345,10 @@ img {
   .footer-title-wrapper {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
     position: relative;
-    margin-bottom: 76px;
+	padding-bottom: 70px;
+   
   }
   .footer-title {
     font-family: "Open Sans";
@@ -1362,7 +1356,8 @@ img {
     color: #ffffff;
     font-size: 32px;
     text-transform: uppercase;
-    letter-spacing: 0.2vw;
+    letter-spacing: 0.3vw;
+	margin: 0;
   }
   .footer-desc {
     font-size: 14px;
@@ -1373,15 +1368,12 @@ img {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 76px;
+	padding-bottom: 80px;
+
   }
   .footer-logo-txt-wrapper {
     display: flex;
     justify-content: center;
-
-    padding-bottom: 11px;
     position: relative;
   }
   .footer-logo-txt {
