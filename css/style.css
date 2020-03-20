@@ -405,8 +405,8 @@ img {
     background-image: url(../img/game_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-	padding-top: 11.7vw;
-	padding-bottom: 2.6vw;
+	padding-top: 13vw;
+	padding-bottom: 3vw;
   }
 
   .footer:before {
