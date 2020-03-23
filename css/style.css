@@ -12,12 +12,10 @@
 }
 * {
   box-sizing: border-box;
- 
 }
 body {
   font-family: "Open Sans";
   margin: 0;
- 
 }
 img {
   display: block;
@@ -34,16 +32,16 @@ img {
     position: relative;
     color: #ffffff;
     text-transform: uppercase;
-	margin: 0;
+    margin: 0;
   }
   h3 {
     color: #c1c1c1;
     font-size: 1.8vw;
     font-weight: bold;
     text-transform: uppercase;
-	margin: 0;
+    margin: 0;
   }
- 
+
   a {
     text-decoration: none;
   }
@@ -55,8 +53,8 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-	 padding-bottom: 6vw;
-	 padding-top: 2.25vw;
+    padding-bottom: 6vw;
+    padding-top: 2.25vw;
   }
 
   .header:before {
@@ -72,44 +70,36 @@ img {
   .header-wrapper {
     max-width: 79.69vw;
 
-	margin-left: auto;
-	margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
   .header-logo-wrapper {
     position: relative;
-	display: flex;
-	justify-content: center;
-	
-	
+    display: flex;
+    justify-content: center;
   }
   .header-logo {
     width: 10.5vw;
     fill: #ffffff;
-
- 
   }
   .header-title-wrapper {
-	   display: flex;
-	   flex-wrap: wrap;
-	   margin-top: 14.5vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 14.5vw;
   }
   .header-title {
-
     font-size: 4.68vw;
-	line-height: 1em;
-	letter-spacing: 0.04em;
+    line-height: 1em;
+    letter-spacing: 0.04em;
     font-weight: bold;
     position: relative;
     color: #ffffff;
     text-transform: uppercase;
-
-
   }
   .header-desc {
-   
     font-size: 4.68vw;
-	line-height: 1em;
-	letter-spacing: 0.04em;
+    line-height: 1em;
+    letter-spacing: 0.04em;
     font-weight: bold;
     position: relative;
     color: #ffffff;
@@ -141,7 +131,6 @@ img {
   }
   .dwnl-apple,
   .dwnl-google {
-   
     display: flex;
     height: 3.9vw;
     width: 15.88vw;
@@ -183,8 +172,8 @@ img {
 
   .main-title {
     margin: 0;
-	margin-top: 1.72vw;
-	line-height: 0.8em;
+    margin-top: 1.72vw;
+    line-height: 0.8em;
     color: #e7e7e7;
   }
   .football {
@@ -198,14 +187,14 @@ img {
   .main-content-right {
     max-width: 79.69vw;
     padding-left: 42.5vw;
-    padding-top: 2.6vw;
+    padding-top: 2.5vw;
     margin-left: auto;
     margin-right: auto;
   }
   .main-content-left {
     max-width: 79.69vw;
-    padding-top: 2.6vw;
-	padding-right: 40.5vw;
+    padding-top: 2.5vw;
+    padding-right: 40.5vw;
     margin-left: auto;
     margin-right: auto;
   }
@@ -229,10 +218,8 @@ img {
     position: absolute;
   }
 
-
   .main-heading-wrapper {
     display: flex;
-
   }
 
   .main-heading-number {
@@ -240,16 +227,15 @@ img {
     font-family: "Open Sans";
     font-weight: bold;
     padding-right: 0.5vw;
-	padding-top: 0.5vw;
+    padding-top: 0.5vw;
     text-transform: uppercase;
-
   }
   .main-heading-number-n {
     font-size: 0.9vw;
     font-weight: bold;
     text-transform: uppercase;
     padding-right: 0.5vw;
-	padding-top: 0.5vw
+    padding-top: 0.5vw;
   }
   .main-heading-number-n-x {
     font-size: 0.9vw;
@@ -257,7 +243,7 @@ img {
     color: #5e42b0;
     text-transform: uppercase;
     padding-right: 0.5vw;
-	padding-top: 0.5vw
+    padding-top: 0.5vw;
   }
 
   .main-heading-number::after {
@@ -296,22 +282,21 @@ img {
 
   .main-desc-black {
     color: #000000;
-	font-size: 1vw;
+    font-size: 1vw;
     line-height: 28px;
     letter-spacing: 1px;
     padding-bottom: 1.7vw;
   }
   .main-desc-white {
     color: #ffffff;
-	font-size: 1vw;
-	line-height: 28px;
+    font-size: 1vw;
+    line-height: 28px;
     letter-spacing: 1px;
     padding-bottom: 1.7vw;
   }
   .main-extra-padding {
-	 padding-bottom: 2.9vw;
+    padding-bottom: 3.5vw;
   }
-  
 
   /*=======article=======*/
   .article {
@@ -348,12 +333,11 @@ img {
 
   .article-heading-wrapper {
     margin-left: 2.25vw;
-	max-width: 33vw;
-
+    max-width: 33vw;
   }
   .article-heading-wrapper-2 {
     margin-right: 2.6vw;
-	max-width: 33vw;
+    max-width: 33vw;
   }
 
   .article-heading-number {
@@ -362,8 +346,8 @@ img {
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    width: 8.3vw;
-    height: 7.5vw;
+    width: 8.8vw;
+    height: 8vw;
     color: #ffffff;
     background-color: #5e42b0;
     font-family: "Open Sans";
@@ -387,16 +371,15 @@ img {
   .article-heading {
     color: #c1c1c1;
     font-size: 4vw;
-	padding-top: 1vw;
+    padding-top: 1vw;
     padding-bottom: 4vw;
   }
 
   .article-desc {
- 
     color: #000000;
     font-size: 1.25vw;
-	line-height: 1.2em;
-	letter-spacing: 0.03em;
+    line-height: 1.2em;
+    letter-spacing: 0.03em;
   }
 
   /*=======FOOTER=======*/
@@ -405,8 +388,8 @@ img {
     background-image: url(../img/game_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-	padding-top: 13vw;
-	padding-bottom: 3vw;
+    padding-top: 12vw;
+    padding-bottom: 3.5vw;
   }
 
   .footer:before {
@@ -422,9 +405,9 @@ img {
   .footer-wrapper {
     max-width: 79.69vw;
     margin-left: auto;
-	margin-right: auto;
+    margin-right: auto;
   }
- 
+
   .footer-logo-svg-wrapper {
     display: flex;
     justify-content: center;
@@ -448,8 +431,9 @@ img {
     color: #ffffff;
     font-size: 4.16vw;
     text-transform: uppercase;
-	line-height: 1em;
-	margin: 0;
+    line-height: 1.2em;
+    letter-spacing: 0.05em;
+    margin: 0;
   }
   .footer-desc {
     font-size: 1.56vw;
@@ -465,7 +449,7 @@ img {
   .footer-logo-txt-wrapper {
     display: flex;
     justify-content: center;
-    margin-top: 13.33vw;
+    margin-top: 13.9vw;
 
     position: relative;
   }
@@ -495,20 +479,19 @@ img {
     text-transform: uppercase;
   }
 
-
   a {
     text-decoration: none;
   }
 
   /*=======Header=======*/
   .header {
-	position: relative;
+    position: relative;
     background-image: url(../img/football_767.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding-bottom: 90px;
-	padding-top: 35px;
+    padding-top: 35px;
   }
 
   .header:before {
@@ -521,12 +504,12 @@ img {
     bottom: 0;
     right: 0;
   }
-   .header-wrapper {
+  .header-wrapper {
     max-width: 703px;
-	margin-left: auto;
-	margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
-  
+
   .header-logo-wrapper {
     display: flex;
     justify-content: center;
@@ -535,7 +518,6 @@ img {
   .header-logo {
     width: 204px;
     fill: #ffffff;
-   
   }
   .header-title-wrapper {
     display: flex;
@@ -550,7 +532,7 @@ img {
     color: #ffffff;
     text-transform: uppercase;
     padding-left: 60px;
-	letter-spacing: 3px;
+    letter-spacing: 3px;
   }
   .header-desc {
     font-size: 64px;
@@ -559,7 +541,8 @@ img {
     color: #ffffff;
     text-transform: uppercase;
     padding-left: 167px;
-	letter-spacing: 3px;
+    letter-spacing: 3px;
+    line-height: 1em;
   }
 
   .dwnl-wrapper {
@@ -568,7 +551,6 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-
   }
   .dwnl-title {
     display: flex;
@@ -630,39 +612,34 @@ img {
     font-weight: bold;
     color: #e7e7e7;
     line-height: 0.8;
-  	margin:0;
+    margin: 0;
   }
   .football {
     position: absolute;
     margin-left: -160px;
-	padding-top: 35px;
+    padding-top: 35px;
   }
 
   .main-content-right {
- margin-left: auto;
-margin-right: auto;
-max-width: 703px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 703px;
     padding-top: 30px;
-	padding-left: 283px;
-
-
+    padding-left: 260px;
   }
   .main-content-left {
-margin-left: auto;
-margin-right: auto;
-max-width: 703px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 703px;
     padding-top: 30px;
-	padding-right: 283px;
-	
-
+    padding-right: 283px;
   }
   .main-stipe-light {
     margin-top: 45px;
     background-color: #ffffff;
   }
-   .main-stipe-extra {
-
-	margin-top: 60px;
+  .main-stipe-extra {
+    margin-top: 60px;
   }
   .main-stipe-medium {
     background-color: #f5f4f9;
@@ -676,28 +653,28 @@ max-width: 703px;
 
   .basketball {
     right: 0;
-	
+
     position: absolute;
   }
 
   .main-heading-wrapper {
     display: flex;
+    padding-bottom: 10px;
   }
 
   .main-heading-number {
     font-size: 18px;
     font-weight: bold;
     padding-right: 10px;
-	padding-top: 5px;
+    padding-top: 5px;
     text-transform: uppercase;
-
   }
   .main-heading-number-n {
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
     padding-right: 10px;
-	padding-top: 5px;
+    padding-top: 5px;
   }
   .main-heading-number-n-x {
     font-size: 18px;
@@ -705,7 +682,7 @@ max-width: 703px;
     color: #5e42b0;
     text-transform: uppercase;
     padding-right: 10px;
-	padding-top: 5px;
+    padding-top: 5px;
   }
 
   .main-heading-number::after {
@@ -740,23 +717,22 @@ max-width: 703px;
     color: #c1c1c1;
     font-size: 32px;
     position: relative;
-	margin: 0;
-}
+    margin: 0;
+  }
   .main-heading-n {
     color: #c1c1c1;
     font-size: 32px;
     position: relative;
-	margin: 0;
-	
-}
+    margin: 0;
+  }
 
   .main-desc-black {
     font-family: "Open Sans";
     color: #000000;
     font-size: 16px;
 
-    line-height: 28px;
-    letter-spacing: 1px;
+    line-height: 1.6em;
+    letter-spacing: 0.05em;
     padding-bottom: 16px;
   }
   .main-desc-white {
@@ -765,8 +741,8 @@ max-width: 703px;
     color: #ffffff;
     font-size: 16px;
 
-    line-height: 28px;
-    letter-spacing: 1px;
+    line-height: 1.6em;
+    letter-spacing: 0.05em;
     padding-bottom: 16px;
   }
 
@@ -784,26 +760,26 @@ max-width: 703px;
   }
   .article-list {
     position: relative;
- max-width: 703px;
+    max-width: 703px;
     margin-top: -85px;
     margin-left: auto;
     margin-right: auto;
-	padding-bottom: 80px;
+    padding-bottom: 90px;
   }
   .article-list-2 {
     position: relative;
-max-width: 703px;
+    max-width: 703px;
     margin-top: -85px;
     margin-left: auto;
     margin-right: auto;
-	padding-bottom: 80px;
+    padding-bottom: 80px;
   }
 
   .article-heading-wrapper {
- padding-top: 50px;
+    padding-top: 50px;
   }
   .article-heading-wrapper-2 {
-padding-top: 50px;
+    padding-top: 50px;
   }
 
   .article-heading-number {
@@ -820,9 +796,6 @@ padding-top: 50px;
     font-weight: bold;
     font-size: 24px;
     text-transform: uppercase;
-	
-
-
   }
 
   .article-heading-number::after {
@@ -839,7 +812,7 @@ padding-top: 50px;
   .article-heading {
     color: #c1c1c1;
     font-size: 80px;
-	margin: 0;
+    margin: 0;
     padding-bottom: 10px;
     line-height: 0.8;
   }
@@ -848,7 +821,8 @@ padding-top: 50px;
     font-family: "Open Sans";
     color: #000000;
     font-size: 24px;
-    letter-spacing: 1px;
+    letter-spacing: 0.05em;
+    line-height: 1em;
   }
 
   /*=======FOOTER=======*/
@@ -860,8 +834,8 @@ padding-top: 50px;
     background-image: url(../img/game_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-	padding-top: 125px;
-	padding-bottom: 15px;
+    padding-top: 125px;
+    padding-bottom: 15px;
   }
 
   .footer:before {
@@ -877,13 +851,13 @@ padding-top: 50px;
   .footer-wrapper {
     max-width: 703px;
     margin-left: auto;
-	margin-right: auto;
+    margin-right: auto;
   }
   .footer-logo-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
-	margin-bottom: 75px;
+    margin-bottom: 65px;
   }
   .footer-logo-svg-wrapper {
     display: flex;
@@ -904,8 +878,7 @@ padding-top: 50px;
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
-	margin-bottom: 280px;
- 
+    margin-bottom: 280px;
   }
   .footer-title {
     font-family: "Open Sans";
@@ -914,7 +887,7 @@ padding-top: 50px;
     font-size: 80px;
     letter-spacing: 3px;
     text-transform: uppercase;
-	margin: 0;
+    margin: 0;
   }
   .footer-desc {
     font-size: 36px;
@@ -931,7 +904,6 @@ padding-top: 50px;
     display: flex;
     justify-content: center;
     position: relative;
- 
   }
   .footer-logo-txt {
     width: 185px;
@@ -951,7 +923,7 @@ padding-top: 50px;
     color: #c1c1c1;
     font-size: 23px;
     font-weight: bold;
-	position: relative;
+    position: relative;
     text-transform: uppercase;
   }
 
@@ -964,8 +936,8 @@ padding-top: 50px;
     background-image: url(../img/football_767.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-	   padding-bottom: 80px;
-	padding-top: 30px;
+    padding-bottom: 80px;
+    padding-top: 30px;
   }
 
   .header:before {
@@ -980,8 +952,8 @@ padding-top: 50px;
   }
   .header-wrapper {
     max-width: 280px;
-	margin-left: auto;
-	margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
   .header-logo-wrapper {
     display: flex;
@@ -1006,7 +978,7 @@ padding-top: 50px;
     position: relative;
     color: #ffffff;
     text-transform: uppercase;
-	padding-bottom: 11px;
+    padding-bottom: 11px;
   }
   .header-desc {
     font-size: 28px;
@@ -1019,8 +991,6 @@ padding-top: 50px;
 
   .dwnl-wrapper {
     position: relative;
-    
- 
   }
   .dwnl-title {
     display: flex;
@@ -1071,7 +1041,6 @@ padding-top: 50px;
 
   .picture-wrapper {
     max-width: 100%;
-
   }
   .main-img {
     max-width: 100%;
@@ -1081,21 +1050,19 @@ padding-top: 50px;
     font-size: 50px;
     font-weight: bold;
     color: #e7e7e7;
-    line-height: 0.8;
+    line-height: 1.3em;
     margin-top: 20px;
-	margin-bottom: 245px;
-	padding-left: 20px;
+    margin-bottom: 245px;
+    padding-left: 20px;
   }
   .football {
     position: absolute;
     padding-top: 60px;
-	padding-left: 65px;
-	right:0;
-	left: 0;
-
+    padding-left: 65px;
+    right: 0;
+    left: 0;
   }
   .main-stipe-light {
-
     background-color: #ffffff;
   }
   .main-stipe-extra {
@@ -1122,45 +1089,39 @@ padding-top: 50px;
   .basketball {
     position: absolute;
     padding-top: 60px;
-	right:0;
-	left: 0;
+    right: 0;
+    left: 0;
   }
 
   .main-heading-wrapper {
     display: flex;
-	padding-top: 55px;
-
+    padding-top: 55px;
   }
   .main-heading-wrapper-mob {
-    padding-top: 80px;
+    padding-top: 50px;
   }
 
   .main-heading-number {
     font-size: 14px;
     font-weight: bold;
     padding-right: 10px;
-	padding-top: 3px;
+    padding-top: 3px;
     text-transform: uppercase;
-
-
   }
   .main-heading-number-n {
     font-size: 14px;
     font-weight: bold;
     padding-right: 10px;
-	padding-top: 3px;
+    padding-top: 3px;
     text-transform: uppercase;
-
   }
   .main-heading-number-n-x {
     font-size: 14px;
     font-weight: bold;
     padding-right: 10px;
-	padding-top: 3px;
+    padding-top: 3px;
     color: #5e42b0;
     text-transform: uppercase;
-
-
   }
 
   .main-heading-number::after {
@@ -1194,33 +1155,31 @@ padding-top: 50px;
   .main-heading-1 {
     color: #c1c1c1;
     position: relative;
-	margin: 0;
+    margin: 0;
   }
-   .main-heading-n {
+  .main-heading-n {
     color: #c1c1c1;
     position: relative;
-	margin: 0;
+    margin: 0;
   }
 
   .main-desc-black {
-     color: #000000;
-    font-size: 16px;
-    line-height: 28px;
-    letter-spacing: 1px;
-    padding-bottom: 34px;
+    color: #000000;
+    font-size: 14px;
+    line-height: 1.3em;
+    letter-spacing: 0.1em;
+    padding-bottom: 40px;
   }
   .main-desc-white {
     color: #ffffff;
-    font-size: 16px;
-    line-height: 28px;
-    letter-spacing: 1px;
-    padding-bottom: 34px;
+    font-size: 14px;
+    line-height: 1.3em;
+    letter-spacing: 0.1em;
+    padding-bottom: 40px;
   }
 
   /*=======article=======*/
-  .article {
 
-  }
   .article-wrapper {
     background-color: #ffffff;
   }
@@ -1230,29 +1189,25 @@ padding-top: 50px;
   }
   .article-list {
     position: relative;
-	max-width: 280px;
-	margin-left: auto;
-	margin-right: auto;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
 
     margin-top: -60px;
-
   }
   .article-list-2 {
     position: relative;
-		max-width: 280px;
-	margin-left: auto;
-	margin-right: auto;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
 
     margin-top: -60px;
-
   }
 
   .article-heading-wrapper {
-
     padding-bottom: 60px;
   }
   .article-heading-wrapper-2 {
-
     padding-bottom: 60px;
   }
 
@@ -1270,7 +1225,6 @@ padding-top: 50px;
     font-weight: bold;
     font-size: 16px;
     text-transform: uppercase;
-
   }
 
   .article-heading-number::after {
@@ -1288,7 +1242,7 @@ padding-top: 50px;
     color: #c1c1c1;
     font-size: 28px;
     line-height: 0.8;
-	margin: 20px 0;
+    margin: 20px 0;
   }
 
   .article-desc {
@@ -1303,7 +1257,6 @@ padding-top: 50px;
     background-image: url(../img/game_767.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
   }
 
   .footer:before {
@@ -1317,18 +1270,16 @@ padding-top: 50px;
     right: 0;
   }
   .footer-wrapper {
-padding-top: 97px;
-padding-bottom: 10px;
-	max-width: 280px;
-	margin-left: auto;
-	margin-right: auto;
-
+    padding-top: 97px;
+    padding-bottom: 10px;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .footer-logo-wrapper {
     display: flex;
     justify-content: center;
-	padding-bottom: 56px;
-
+    padding-bottom: 56px;
   }
   .footer-logo-svg-wrapper {
     display: flex;
@@ -1349,8 +1300,7 @@ padding-bottom: 10px;
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
-	padding-bottom: 70px;
-   
+    padding-bottom: 70px;
   }
   .footer-title {
     font-family: "Open Sans";
@@ -1359,7 +1309,7 @@ padding-bottom: 10px;
     font-size: 32px;
     text-transform: uppercase;
     letter-spacing: 0.3vw;
-	margin: 0;
+    margin: 0;
   }
   .footer-desc {
     font-size: 14px;
@@ -1370,8 +1320,7 @@ padding-bottom: 10px;
     position: relative;
     display: flex;
     flex-wrap: wrap;
-	padding-bottom: 80px;
-
+    padding-bottom: 80px;
   }
   .footer-logo-txt-wrapper {
     display: flex;
