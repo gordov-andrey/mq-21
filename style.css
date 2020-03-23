@@ -1,0 +1,1336 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-Regular.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-Bold.woff);
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans";
+  margin: 0;
+}
+img {
+  display: block;
+}
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+}
+/*======= COMMON =======*/
+@media (min-width: 960px) {
+  h2 {
+    font-size: 4.16vw;
+    font-weight: bold;
+    position: relative;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  h3 {
+    color: #c1c1c1;
+    font-size: 1.8vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /*=======Header=======*/
+  .header {
+    position: relative;
+    background-image: url(../img/football_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 6vw;
+    padding-top: 2.25vw;
+  }
+
+  .header:before {
+    content: "";
+    position: absolute;
+    background-color: #1c1737;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .header-wrapper {
+    max-width: 79.69vw;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header-logo-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .header-logo {
+    width: 10.5vw;
+    fill: #ffffff;
+  }
+  .header-title-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 14.5vw;
+  }
+  .header-title {
+    font-size: 4.68vw;
+    line-height: 1em;
+    letter-spacing: 0.04em;
+    font-weight: bold;
+    position: relative;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  .header-desc {
+    font-size: 4.68vw;
+    line-height: 1em;
+    letter-spacing: 0.04em;
+    font-weight: bold;
+    position: relative;
+    color: #ffffff;
+    text-transform: uppercase;
+
+    padding-left: 24vw;
+  }
+
+  .dwnl-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11vw;
+  }
+  .dwnl-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 1.25vw;
+  }
+  .dwnl-get {
+    font-size: 0.73vw;
+    font-weight: normal;
+  }
+  .dwnl-store {
+    font-size: 0.73vw;
+    font-weight: bold;
+  }
+  .dwnl-apple,
+  .dwnl-google {
+    display: flex;
+    height: 3.9vw;
+    width: 15.88vw;
+    background-color: #5e42b0;
+    border: none;
+    border-radius: 2.6vw;
+
+    color: #ffffff;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+  }
+  .store-icon {
+    width: 2.34vw;
+    fill: #ffffff;
+    margin-left: 2.6vw;
+  }
+  .dwnl-google {
+    margin-left: 2.6vw;
+  }
+
+  /*=======MAIN=======*/
+  .main {
+    position: relative;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+  }
+  .main:before {
+    content: "";
+    position: absolute;
+  }
+
+  .picture-wrapper {
+    width: 50%;
+  }
+  .main-img {
+    max-width: 100%;
+  }
+
+  .main-title {
+    margin: 0;
+    margin-top: 1.72vw;
+    line-height: 0.8em;
+    color: #e7e7e7;
+  }
+  .football {
+    max-width: 50%;
+    position: absolute;
+    padding-left: 21vw;
+  }
+  .main-header-wrapper {
+    padding-bottom: 5vw;
+  }
+  .main-content-right {
+    max-width: 79.69vw;
+    padding-left: 42.5vw;
+    padding-top: 2.5vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-content-left {
+    max-width: 79.69vw;
+    padding-top: 2.5vw;
+    padding-right: 40.5vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-stipe-light {
+    margin-top: 1.5vw;
+    background-color: #ffffff;
+  }
+  .main-stipe-medium {
+    background-color: #f5f4f9;
+  }
+  .main-stipe-hard {
+    background-color: #5e42b0;
+  }
+  .main-stipe-dark {
+    background-color: #090c35;
+  }
+
+  .basketball {
+    max-width: 50%;
+    margin-left: 42vw;
+    position: absolute;
+  }
+
+  .main-heading-wrapper {
+    display: flex;
+  }
+
+  .main-heading-number {
+    font-size: 0.9vw;
+    font-family: "Open Sans";
+    font-weight: bold;
+    padding-right: 0.5vw;
+    padding-top: 0.5vw;
+    text-transform: uppercase;
+  }
+  .main-heading-number-n {
+    font-size: 0.9vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-right: 0.5vw;
+    padding-top: 0.5vw;
+  }
+  .main-heading-number-n-x {
+    font-size: 0.9vw;
+    font-weight: bold;
+    color: #5e42b0;
+    text-transform: uppercase;
+    padding-right: 0.5vw;
+    padding-top: 0.5vw;
+  }
+
+  .main-heading-number::after {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 19px;
+    border: none;
+    border-radius: 2px;
+    background-color: #5e42b0;
+  }
+
+  .main-heading-number-n::after {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 19px;
+    border: none;
+    border-radius: 2px;
+    background-color: #ffffff;
+  }
+  .main-heading-number-n-x::after {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 19px;
+    border: none;
+    border-radius: 2px;
+    background-color: #ffffff;
+  }
+  .main-heading {
+    color: #c1c1c1;
+    font-size: 1.6vw;
+    position: relative;
+  }
+
+  .main-desc-black {
+    color: #000000;
+    font-size: 1vw;
+    line-height: 28px;
+    letter-spacing: 1px;
+    padding-bottom: 1.7vw;
+  }
+  .main-desc-white {
+    color: #ffffff;
+    font-size: 1vw;
+    line-height: 28px;
+    letter-spacing: 1px;
+    padding-bottom: 1.7vw;
+  }
+  .main-extra-padding {
+    padding-bottom: 3vw;
+  }
+
+  /*=======article=======*/
+  .article {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .article-wrapper {
+    display: flex;
+    background-color: #ffffff;
+  }
+  .article-wrapper:nth-of-type(2n) {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #ffffff;
+  }
+
+  .article-img {
+    width: 100%;
+  }
+  .article-list {
+    display: flex;
+    max-width: 50%;
+    margin-top: 11.5vw;
+    margin-left: -4.15vw;
+  }
+  .article-list-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 50%;
+    margin-top: 11.5vw;
+    margin-right: -4.15vw;
+  }
+
+  .article-heading-wrapper {
+    margin-left: 2.25vw;
+    max-width: 33vw;
+  }
+  .article-heading-wrapper-2 {
+    margin-right: 2.6vw;
+    max-width: 33vw;
+  }
+
+  .article-heading-number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 8.8vw;
+    height: 8vw;
+    color: #ffffff;
+    background-color: #5e42b0;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    padding-left: 0;
+  }
+
+  .article-heading-number::after {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 23px;
+    border: none;
+    border-radius: 2px;
+    background-color: #ffffff;
+    opacity: 0.5;
+  }
+
+  .article-heading {
+    color: #c1c1c1;
+    font-size: 4vw;
+    padding-top: 1vw;
+    padding-bottom: 3vw;
+  }
+
+  .article-desc {
+    color: #000000;
+    font-size: 1.25vw;
+    line-height: 1.2em;
+    letter-spacing: 0.03em;
+  }
+
+  /*=======FOOTER=======*/
+  .footer {
+    position: relative;
+    background-image: url(../img/game_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 12vw;
+    padding-bottom: 3.5vw;
+  }
+
+  .footer:before {
+    content: "";
+    position: absolute;
+    background-color: #081a43;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .footer-wrapper {
+    max-width: 79.69vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-logo-svg-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 6.77vw;
+    height: 6.77vw;
+    border: none;
+    border-radius: 20px;
+    background-color: #563ba3;
+  }
+  .footer-logo-svg {
+    width: 5.47vw;
+    fill: #ffffff;
+  }
+  .footer-title-wrapper {
+    position: relative;
+    padding-left: 40px;
+  }
+  .footer-title {
+    font-family: "Open Sans";
+    color: #ffffff;
+    font-size: 4.16vw;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    letter-spacing: 0.05em;
+    margin: 0;
+  }
+  .footer-desc {
+    font-size: 1.56vw;
+    color: #9689bb;
+    text-transform: uppercase;
+  }
+  .footer-dwnl-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 7.55vw;
+  }
+  .footer-logo-txt-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 13.9vw;
+
+    position: relative;
+  }
+  .footer-logo-txt {
+    width: 9.63vw;
+
+    fill: #ffffff;
+  }
+  .footer-wrapper-desktop {
+    display: flex;
+    justify-content: center;
+  }
+}
+/*======= COMMON =======*/
+@media (min-width: 641px) and (max-width: 960px) {
+  h2 {
+    font-size: 80px;
+    font-weight: bold;
+    position: relative;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  h3 {
+    color: #c1c1c1;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /*=======Header=======*/
+  .header {
+    position: relative;
+    background-image: url(../img/football_767.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 90px;
+    padding-top: 35px;
+  }
+
+  .header:before {
+    content: "";
+    position: absolute;
+    background-color: #1c1737;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .header-wrapper {
+    max-width: 703px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header-logo-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .header-logo {
+    width: 204px;
+    fill: #ffffff;
+  }
+  .header-title-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 175px;
+    margin-bottom: 310px;
+  }
+  .header-title {
+    font-size: 64px;
+    font-weight: bold;
+    position: relative;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-left: 60px;
+    letter-spacing: 3px;
+  }
+  .header-desc {
+    font-size: 64px;
+    font-weight: bold;
+    position: relative;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-left: 167px;
+    letter-spacing: 3px;
+    line-height: 1em;
+  }
+
+  .dwnl-wrapper {
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dwnl-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 25px;
+  }
+  .dwnl-get {
+    font-size: 14px;
+    font-weight: normal;
+  }
+  .dwnl-store {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .dwnl-apple,
+  .dwnl-google {
+    display: flex;
+    height: 75px;
+    width: 315px;
+    background-color: #5e42b0;
+    border: none;
+    border-radius: 50px;
+
+    color: #ffffff;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+  }
+  .store-icon {
+    width: 35px;
+    fill: #ffffff;
+    margin-left: 50px;
+  }
+  .dwnl-google {
+    margin-left: 50px;
+  }
+
+  /*=======MAIN=======*/
+  .main {
+    position: relative;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+  }
+  .main:before {
+    content: "";
+    position: absolute;
+  }
+
+  .picture-wrapper {
+    max-width: 100%;
+  }
+  .main-img {
+    max-width: 100%;
+  }
+
+  .main-title {
+    font-size: 80px;
+    font-weight: bold;
+    color: #e7e7e7;
+    line-height: 0.8;
+    margin: 0;
+  }
+  .football {
+    position: absolute;
+    margin-left: -160px;
+    padding-top: 35px;
+  }
+
+  .main-content-right {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 703px;
+    padding-top: 30px;
+    padding-left: 260px;
+  }
+  .main-content-left {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 703px;
+    padding-top: 30px;
+    padding-right: 283px;
+  }
+  .main-stipe-light {
+    margin-top: 45px;
+    background-color: #ffffff;
+  }
+  .main-stipe-extra {
+    margin-top: 60px;
+  }
+  .main-stipe-medium {
+    background-color: #f5f4f9;
+  }
+  .main-stipe-hard {
+    background-color: #5e42b0;
+  }
+  .main-stipe-dark {
+    background-color: #090c35;
+  }
+
+  .basketball {
+    right: 0;
+
+    position: absolute;
+  }
+
+  .main-heading-wrapper {
+    display: flex;
+    padding-bottom: 10px;
+  }
+
+  .main-heading-number {
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-top: 5px;
+    text-transform: uppercase;
+  }
+  .main-heading-number-n {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-right: 10px;
+    padding-top: 5px;
+  }
+  .main-heading-number-n-x {
+    font-size: 18px;
+    font-weight: bold;
+    color: #5e42b0;
+    text-transform: uppercase;
+    padding-right: 10px;
+    padding-top: 5px;
+  }
+
+  .main-heading-number::after {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 19px;
+    border: none;
+    border-radius: 2px;
+    background-color: #5e42b0;
+  }
+
+  .main-heading-number-n::after {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 19px;
+    border: none;
+    border-radius: 2px;
+    background-color: #ffffff;
+  }
+  .main-heading-number-n-x::after {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 19px;
+    border: none;
+    border-radius: 2px;
+    background-color: #ffffff;
+  }
+  .main-heading-1 {
+    color: #c1c1c1;
+    font-size: 32px;
+    position: relative;
+    margin: 0;
+  }
+  .main-heading-n {
+    color: #c1c1c1;
+    font-size: 32px;
+    position: relative;
+    margin: 0;
+  }
+
+  .main-desc-black {
+    font-family: "Open Sans";
+    color: #000000;
+    font-size: 16px;
+
+    line-height: 1.6em;
+    letter-spacing: 0.05em;
+    padding-bottom: 16px;
+  }
+  .main-desc-white {
+    font-family: "Open Sans";
+    font-weight: regular;
+    color: #ffffff;
+    font-size: 16px;
+
+    line-height: 1.6em;
+    letter-spacing: 0.05em;
+    padding-bottom: 16px;
+  }
+
+  /*=======article=======*/
+  .article {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .article-wrapper {
+    background-color: #ffffff;
+  }
+
+  .article-img {
+    width: 100%;
+  }
+  .article-list {
+    position: relative;
+    max-width: 703px;
+    margin-top: -85px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 90px;
+  }
+  .article-list-2 {
+    position: relative;
+    max-width: 703px;
+    margin-top: -85px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+  }
+
+  .article-heading-wrapper {
+    padding-top: 50px;
+  }
+  .article-heading-wrapper-2 {
+    padding-top: 50px;
+  }
+
+  .article-heading-number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 116px;
+    height: 116px;
+    color: #ffffff;
+    background-color: #5e42b0;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+
+  .article-heading-number::after {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 25px;
+    border: none;
+    border-radius: 2px;
+    background-color: #ffffff;
+    opacity: 0.5;
+  }
+
+  .article-heading {
+    color: #c1c1c1;
+    font-size: 80px;
+    margin: 0;
+    padding-bottom: 10px;
+    line-height: 0.8;
+  }
+
+  .article-desc {
+    font-family: "Open Sans";
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    line-height: 1em;
+  }
+
+  /*=======FOOTER=======*/
+  .footer {
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    background-image: url(../img/game_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 125px;
+    padding-bottom: 15px;
+  }
+
+  .footer:before {
+    content: "";
+    position: absolute;
+    background-color: #081a43;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .footer-wrapper {
+    max-width: 703px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-logo-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 65px;
+  }
+  .footer-logo-svg-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 130px;
+    height: 130px;
+    border: none;
+    border-radius: 20px;
+    background-color: #563ba3;
+  }
+  .footer-logo-svg {
+    width: 105px;
+    fill: #ffffff;
+  }
+  .footer-title-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 280px;
+  }
+  .footer-title {
+    font-family: "Open Sans";
+
+    color: #ffffff;
+    font-size: 80px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .footer-desc {
+    font-size: 36px;
+    color: #9689bb;
+    text-transform: uppercase;
+  }
+  .footer-dwnl-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .footer-logo-txt-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .footer-logo-txt {
+    width: 185px;
+    fill: #ffffff;
+  }
+}
+/*======= COMMON =======*/
+@media (max-width: 640px) {
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  h3 {
+    color: #c1c1c1;
+    font-size: 23px;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  /*=======Header=======*/
+  .header {
+    position: relative;
+    background-image: url(../img/football_767.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 80px;
+    padding-top: 30px;
+  }
+
+  .header:before {
+    content: "";
+    position: absolute;
+    background-color: #1c1737;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .header-wrapper {
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header-logo-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .header-logo {
+    width: 132px;
+    fill: #ffffff;
+  }
+  .header-title-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+    margin-top: 130px;
+    margin-bottom: 85px;
+  }
+  .header-title {
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 11px;
+  }
+  .header-desc {
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-left: 43px;
+  }
+
+  .dwnl-wrapper {
+    position: relative;
+  }
+  .dwnl-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 8px;
+  }
+  .dwnl-get {
+    font-size: 8px;
+    font-weight: normal;
+  }
+  .dwnl-store {
+    font-size: 8px;
+  }
+  .dwnl-apple,
+  .dwnl-google {
+    display: flex;
+    height: 6vh;
+    width: 280px;
+    background-color: #5e42b0;
+    border: none;
+    border-radius: 17px;
+    margin: 0;
+    color: #ffffff;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    padding-left: 83px;
+  }
+  .store-icon {
+    width: 20px;
+    fill: #ffffff;
+  }
+  .dwnl-google {
+    margin-top: 14px;
+  }
+
+  /*=======MAIN=======*/
+  .main {
+    position: relative;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+  }
+  .main:before {
+    content: "";
+    position: absolute;
+  }
+
+  .picture-wrapper {
+    max-width: 100%;
+  }
+  .main-img {
+    max-width: 100%;
+  }
+
+  .main-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #e7e7e7;
+    line-height: 1.3em;
+    margin-top: 20px;
+    margin-bottom: 245px;
+    padding-left: 20px;
+  }
+  .football {
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 65px;
+    right: 0;
+    left: 0;
+  }
+  .main-stipe-light {
+    background-color: #ffffff;
+  }
+  .main-stipe-extra {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fafafa;
+  }
+  .main-stipe-medium {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f5f4f9;
+  }
+  .main-stipe-hard {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #5e42b0;
+  }
+  .main-stipe-dark {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #090c35;
+  }
+
+  .basketball {
+    position: absolute;
+    padding-top: 60px;
+    right: 0;
+    left: 0;
+  }
+
+  .main-heading-wrapper {
+    display: flex;
+    padding-top: 55px;
+  }
+  .main-heading-wrapper-mob {
+    padding-top: 50px;
+  }
+
+  .main-heading-number {
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-top: 3px;
+    text-transform: uppercase;
+  }
+  .main-heading-number-n {
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-top: 3px;
+    text-transform: uppercase;
+  }
+  .main-heading-number-n-x {
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-top: 3px;
+    color: #5e42b0;
+    text-transform: uppercase;
+  }
+
+  .main-heading-number::after {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 19px;
+    border: none;
+    border-radius: 2px;
+    background-color: #5e42b0;
+  }
+
+  .main-heading-number-n::after {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 19px;
+    border: none;
+    border-radius: 2px;
+    background-color: #ffffff;
+  }
+  .main-heading-number-n-x::after {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 19px;
+    border: none;
+    border-radius: 2px;
+    background-color: #ffffff;
+  }
+  .main-heading-1 {
+    color: #c1c1c1;
+    position: relative;
+    margin: 0;
+  }
+  .main-heading-n {
+    color: #c1c1c1;
+    position: relative;
+    margin: 0;
+  }
+
+  .main-desc-black {
+    color: #000000;
+    font-size: 14px;
+    line-height: 1.3em;
+    letter-spacing: 0.1em;
+    padding-bottom: 40px;
+  }
+  .main-desc-white {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.3em;
+    letter-spacing: 0.1em;
+    padding-bottom: 40px;
+  }
+
+  /*=======article=======*/
+
+  .article-wrapper {
+    background-color: #ffffff;
+  }
+
+  .article-img {
+    width: 100%;
+  }
+  .article-list {
+    position: relative;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: -60px;
+  }
+  .article-list-2 {
+    position: relative;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: -60px;
+  }
+
+  .article-heading-wrapper {
+    padding-bottom: 60px;
+  }
+  .article-heading-wrapper-2 {
+    padding-bottom: 60px;
+  }
+
+  .article-heading-number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 70px;
+    height: 70px;
+    color: #ffffff;
+    background-color: #5e42b0;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+
+  .article-heading-number::after {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 25px;
+    border: none;
+    border-radius: 2px;
+    background-color: #ffffff;
+    opacity: 0.5;
+  }
+
+  .article-heading {
+    color: #c1c1c1;
+    font-size: 28px;
+    line-height: 0.8;
+    margin: 20px 0;
+  }
+
+  .article-desc {
+    font-family: "Open Sans";
+    color: #000000;
+    font-size: 16px;
+  }
+
+  /*=======FOOTER=======*/
+  .footer {
+    position: relative;
+    background-image: url(../img/game_767.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .footer:before {
+    content: "";
+    position: absolute;
+    background-color: #081a43;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .footer-wrapper {
+    padding-top: 97px;
+    padding-bottom: 10px;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-logo-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 56px;
+  }
+  .footer-logo-svg-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 74px;
+    height: 74px;
+    border: none;
+    border-radius: 20px;
+    background-color: #563ba3;
+  }
+  .footer-logo-svg {
+    width: 60px;
+    fill: #ffffff;
+  }
+  .footer-title-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 70px;
+  }
+  .footer-title {
+    font-family: "Open Sans";
+
+    color: #ffffff;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 0.3vw;
+    margin: 0;
+  }
+  .footer-desc {
+    font-size: 14px;
+    color: #9689bb;
+    text-transform: uppercase;
+  }
+  .footer-dwnl-wrapper {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+  }
+  .footer-logo-txt-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .footer-logo-txt {
+    width: 132px;
+    height: 37px;
+    fill: #ffffff;
+  }
+}
+/*=====================================*/
